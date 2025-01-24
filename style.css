@@ -253,6 +253,8 @@ input:checked+.slider:before {
     animation: spin 0.3s linear infinite;
 }
 
+
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
