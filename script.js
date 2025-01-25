@@ -36,7 +36,7 @@ decreaseSpeed.onclick = () => {
         currentSpeed -= 10;
         speedDisplay.innerText = currentSpeed;
         updateWheelAnimation();
-        currentBatteryCapacity = maxBatteryCapacity - (currentSpeeditit * 2);
+        currentBatteryCapacity = maxBatteryCapacity - (currentSpeed * 2);
         batteryCapacity.innerText = `${currentBatteryCapacity}км`;
     }
 };
